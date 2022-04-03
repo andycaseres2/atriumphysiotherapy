@@ -1,10 +1,91 @@
-.sectioninfo{
-    background-color: blueviolet;
+.sectioninfo {
+  background-color: rgb(0, 93, 185);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 150px;
+}
+.containerinfo {
+  column-count: 2;
+  width: 50%;
+  padding-left: 50px;
+}
+.containerinfo p {
+  color: white;
+  font-size: 13px;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  position: relative;
+  right: 16px;
 }
 
-.logo{
-    width: 200px;
+.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 70px;
 }
-.icon{
-    font-size: 30px;
+.fax {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 80px;
+}
+
+.logo {
+  width: 220px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+.icon {
+  font-size: 22px;
+  color: white;
+  padding-right: 10px;
+}
+
+.covidbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 50px;
+}
+.covidbtn .btn {
+  border: none;
+  padding: 7px;
+  width: 380px;
+  border-radius: 10px;
+  color: White;
+  background: #cd4c32;
+  border: 1px solid #cd4c32;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.covidbtn .btn:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.btn span {
+  position: relative;
+  top: 2px;
+  right: 10px;
 }
