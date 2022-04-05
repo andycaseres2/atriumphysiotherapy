@@ -1,7 +1,15 @@
-import React from "react";
+import SectionInfo from "../../Components/SectionInfo";
+import { Navbar } from "../../Components/Navbar";
+import SectionTitle from "../../Components/SectionTitle";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <SectionInfo />
+      <Navbar />
+      <SectionTitle />
+    </div>
+  );
 };
 
 export default About;
