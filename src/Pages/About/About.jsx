@@ -1,6 +1,7 @@
 import SectionInfo from "../../Components/SectionInfo";
 import { Navbar } from "../../Components/Navbar";
 import SectionTitle from "../../Components/SectionTitle";
+import CarouselImg from "./CarouselImg";
 
 const About = () => {
   return (
@@ -8,6 +9,7 @@ const About = () => {
       <SectionInfo />
       <Navbar />
       <SectionTitle />
+      <CarouselImg />
     </div>
   );
 };

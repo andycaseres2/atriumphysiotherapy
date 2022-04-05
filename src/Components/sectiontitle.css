@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .About::before {
   position: absolute;
@@ -20,6 +21,14 @@
 .about-title {
   margin: 0;
   z-index: 1;
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: 900;
   color: white;
+}
+
+.link-home {
+  z-index: 1;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
 }
