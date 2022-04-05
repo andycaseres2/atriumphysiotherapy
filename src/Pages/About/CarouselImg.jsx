@@ -1,24 +1,43 @@
-import React from "react";
-import AliceCarousel from "react-alice-carousel";
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 import clinic1 from "../../assets/images/clinic1.jpg";
-import clinic2 from "../../assets/images/clinic2.jpg";
 import clinic3 from "../../assets/images/clinic4.jpg";
 import clinic4 from "../../assets/images/clinic5.png";
 import clinic5 from "../../assets/images/clinic6.png";
 import clinic6 from "../../assets/images/clinic7.png";
-import "carouselimg.css";
+import "./carouselimg.css";
 
 const CarruselImg = () => {
   return (
     <div className="carousel">
-      <AliceCarousel autoPlay autoPlayInterval="3000">
-        <img src={clinic1} className="sliderimg" />
-        <img src={clinic2} className="sliderimg" />
-        <img src={clinic3} className="sliderimg" />
-        <img src={clinic4} className="sliderimg" />
-        <img src={clinic5} className="sliderimg" />
-        <img src={clinic6} className="sliderimg" />
-      </AliceCarousel>
+      <h1 className="title-carousel">Our Office</h1>
+      <div className="carousel-container">
+        <Carousel autoPlay>
+          <div>
+            <img src={clinic1} />
+            <p className="legend">Legend 1</p>
+          </div>
+          <div>
+            <img src={clinic3} />
+            <p className="legend">Legend 3</p>
+          </div>
+          <div>
+            <img src={clinic4} />
+            <p className="legend">Legend 1</p>
+          </div>
+          <div>
+            <img src={clinic5} />
+            <p className="legend">Legend 2</p>
+          </div>
+          <div>
+            <img src={clinic6} />
+            <p className="legend">Legend 3</p>
+          </div>
+        </Carousel>
+      </div>
     </div>
   );
 };

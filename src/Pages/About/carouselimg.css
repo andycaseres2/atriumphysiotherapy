@@ -1,5 +1,21 @@
-.sliderimg {
-  width: 100%;
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  width: 50%;
   height: 500px;
   object-fit: cover;
+}
+
+.legend {
+  display: none;
+}
+
+.title-carousel {
+  font-size: 35px;
+  font-weight: 900;
 }
