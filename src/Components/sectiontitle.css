@@ -1,0 +1,25 @@
+.About {
+  background-image: url("../assets//images/bg_3.jpg");
+  background-position: 50% -101.133px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.About::before {
+  position: absolute;
+  top: 215px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0.8;
+  height: 300px;
+  background: #0059b3;
+}
+.about-title {
+  margin: 0;
+  z-index: 1;
+  font-size: 50px;
+  color: white;
+}
