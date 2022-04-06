@@ -15,7 +15,7 @@ const CarruselImg = () => {
     <div className="carousel">
       <h1 className="title-carousel">Our Office</h1>
       <div className="carousel-container">
-        <Carousel autoPlay>
+        <Carousel className="Car" autoPlay>
           <div>
             <img src={clinic1} />
             <p className="legend">Legend 1</p>

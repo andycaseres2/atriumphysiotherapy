@@ -1,18 +1,19 @@
 .carousel {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
-
 .carousel-container {
   width: 50%;
-  height: 500px;
   object-fit: cover;
+  align-items: center;
+  box-shadow: none;
 }
 
 .legend {
   display: none;
+  box-shadow: none;
 }
 
 .title-carousel {
