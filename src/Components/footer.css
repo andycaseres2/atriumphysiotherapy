@@ -68,10 +68,15 @@
   font-weight: normal;
   text-align: center;
   position: relative;
-  top: 50px;
 }
 .copy-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon-f {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
 }
