@@ -1,8 +1,9 @@
-import SectionInfo from "../../Components/SectionInfo";
-import { Navbar } from "../../Components/Navbar";
-import SectionTitle from "../../Components/SectionTitle";
-import CarouselImg from "./CarouselImg";
-import Staff from "./Staff";
+import SectionInfo from '../../Components/SectionInfo'
+import { Navbar } from '../../Components/Navbar'
+import SectionTitle from '../../Components/SectionTitle'
+import CarouselImg from './CarouselImg'
+import Staff from './Staff'
+import Footer from '../../Components/Footer'
 
 const About = () => {
   return (
@@ -12,8 +13,9 @@ const About = () => {
       <SectionTitle />
       <CarouselImg />
       <Staff />
+      <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
