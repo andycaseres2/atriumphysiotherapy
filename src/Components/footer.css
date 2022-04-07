@@ -64,19 +64,39 @@
   text-align: justify;
 }
 .copy {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
   text-align: center;
   position: relative;
-}
-.copy-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
+  position: relative;
+  bottom: 40px;
 }
 
 .icon-f {
   color: white;
   font-size: 20px;
   margin-right: 10px;
+}
+
+.back-to {
+  font-size: 45px;
+  position: relative;
+  color: #fff;
+  height: 50px;
+  position: relative;
+  top: 300px;
+  right: 70px;
+  transition: all 0.5s ease;
+}
+
+.back-to:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.footer-appo {
+  position: relative;
+  left: 350px;
+  bottom: 20px;
 }

@@ -4,6 +4,7 @@ import logo from "../assets/images/atriumLogo.png";
 import { ImLocation2 } from "react-icons/im";
 import { GrMail } from "react-icons/gr";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsArrowUpCircleFill } from "react-icons/bs";
 import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
@@ -62,11 +63,16 @@ const Footer = () => {
           <li>Saturday: Closed</li>
           <li>Sunday: Closed</li>
         </div>
+        <a className="back-to" href="#inicio">
+          <BsArrowUpCircleFill />
+        </a>
       </div>
-
-      <div copy-container>
-        <h2 className="copy">Copyright ©2022 All rights reserved</h2>
+      <div className="appointmentbtn">
+        <button className="btn appointment footer-appo">
+          Make An Appointment
+        </button>
       </div>
+      <h2 className="copy">Copyright ©2022 All rights reserved</h2>
     </div>
   );
 };
