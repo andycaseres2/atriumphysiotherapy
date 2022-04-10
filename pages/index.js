@@ -1,5 +1,5 @@
 import Head from 'next/head'
-const post = [
+const posts = [
   {
     title: '10 Back stretches you need', excerpt: 'learn these effective back stretching movements'
   },
@@ -7,9 +7,6 @@ const post = [
     title: 'Learn to sleep better', excerpt: 'Effective ways for a better sleep quality every night'
   }
 ];
-
-
-
 
 export default function home (){
   return (
@@ -19,7 +16,7 @@ export default function home (){
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
-        {post.map((post, index) => (
+        {posts.map((post, index) => (
             <div>
               {post.title}
               {post.excerpt}
