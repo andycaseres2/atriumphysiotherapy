@@ -6,6 +6,7 @@ import { GrMail } from "react-icons/gr";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaFax } from "react-icons/fa";
 import { GoAlert } from "react-icons/go";
+import { Link } from "wouter";
 
 const SectionInfo = () => {
   return (
@@ -45,12 +46,14 @@ const SectionInfo = () => {
         </div>
       </div>
       <div className="covidbtn">
-        <button className="btn">
-          <span>
-            <GoAlert />
-          </span>
-          COVID-19 Alert
-        </button>
+        <Link href="/Covid19">
+          <button className="btn">
+            <span>
+              <GoAlert />
+            </span>
+            COVID-19 Alert
+          </button>
+        </Link>
       </div>
     </div>
   );

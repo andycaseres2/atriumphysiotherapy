@@ -1,21 +1,21 @@
-import SectionInfo from '../../Components/SectionInfo'
-import { Navbar } from '../../Components/Navbar'
-import SectionTitle from '../../Components/SectionTitle'
-import CarouselImg from './CarouselImg'
-import Staff from './Staff'
-import Footer from '../../Components/Footer'
+import SectionInfo from "../../Components/SectionInfo";
+import { Navbar } from "../../Components/Navbar";
+import SectionTitle from "../../Components/SectionTitle";
+import CarouselImg from "./CarouselImg";
+import Staff from "./Staff";
+import Footer from "../../Components/Footer";
 
 const About = () => {
   return (
     <div>
       <SectionInfo />
       <Navbar />
-      <SectionTitle />
+      <SectionTitle title="About" />
       <CarouselImg />
       <Staff />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "wouter";
 import "./sectiontitle.css";
 
-const SectionTitle = () => {
+const SectionTitle = ({ title }) => {
   return (
     <section className="About">
-      <h1 className="about-title">About</h1>
+      <h1 className="about-title">{title}</h1>
       <Link href="/">
         <a className="link-home">Home{" >"}</a>
       </Link>
