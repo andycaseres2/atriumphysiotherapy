@@ -1,0 +1,13 @@
+.covid19-container {
+  padding: 80px;
+  text-align: justify;
+}
+
+.covid19-container h1 {
+  font-size: 40px;
+}
+
+.covid19-container p {
+  color: gray;
+  font-size: 18px;
+}
