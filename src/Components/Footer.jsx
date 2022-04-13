@@ -6,6 +6,7 @@ import { GrMail } from "react-icons/gr";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsArrowUpCircleFill } from "react-icons/bs";
 import SocialIcons from "./SocialIcons";
+import { Link } from "wouter";
 
 const Footer = () => {
   return (
@@ -53,7 +54,7 @@ const Footer = () => {
             <a href="">Custom Crafted Orthotics</a>
           </ul>
         </div>
-        <div class="right">
+        <div className="right">
           <h3 className="right-title">Operating Hours</h3>
           <li>Monday: 8:00am-7:00pm</li>
           <li>Tuesday: 8:00am-5:00pm</li>
@@ -67,10 +68,10 @@ const Footer = () => {
           <BsArrowUpCircleFill />
         </a>
       </div>
-      <div className="appointmentbtn">
-        <button className="btn appointment footer-appo">
-          Make An Appointment
-        </button>
+      <div className="appointmentbtn footer-appo">
+        <Link href="/Appointment">
+          <a className="btn appointment">Make An Appointment</a>
+        </Link>
       </div>
       <div className="copyright">
         <h2 className="copy">

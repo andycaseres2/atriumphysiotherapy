@@ -14,7 +14,9 @@ export const Navbar = () => {
           </Link>
         </ul>
         <div className="appointmentbtn">
-          <button className="btn appointment">Make An Appointment</button>
+          <Link href="/Appointment">
+            <a className="btn appointment">Make An Appointment</a>
+          </Link>
         </div>
       </div>
     </div>
