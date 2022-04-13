@@ -72,7 +72,15 @@ const Footer = () => {
           Make An Appointment
         </button>
       </div>
-      <h2 className="copy">Copyright ©2022 All rights reserved</h2>
+      <div className="copyright">
+        <h2 className="copy">
+          Created by{" "}
+          <a className="by" href="#">
+            OnPoint Media
+          </a>{" "}
+          | Copyright ©2022 All rights reserved
+        </h2>
+      </div>
     </div>
   );
 };
