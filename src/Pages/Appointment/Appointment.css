@@ -10,8 +10,9 @@
   background-color: rgb(0, 93, 185);
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 7px;
 }
 
 .form {
