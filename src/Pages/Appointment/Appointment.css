@@ -1,7 +1,13 @@
+.reviewbox{
+  width: 700px;
+}
+
 .Appointment {
   display: flex;
   height: 100%;
 }
+
+
 
 /* left*/
 

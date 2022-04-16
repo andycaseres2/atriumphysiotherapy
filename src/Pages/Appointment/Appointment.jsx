@@ -39,7 +39,7 @@ const Appointment = () => {
         </div>
         <div className='right'>
           <div className='container-right'>
-            <div className='card-right'>
+            {/* <div className='card-right'>
               <h3>28</h3>
               <p>Years of Experience</p>
             </div>
@@ -54,8 +54,11 @@ const Appointment = () => {
             <div className='card-right'>
               <h3>28</h3>
               <p>Years of Experience</p>
+            </div> */}
+            <div>
+            
+            <div className="elfsight-app-7c8824c3-96b9-4222-ab5c-f8f827c1feaa reviewbox"></div>
             </div>
-            <span className='text-about'>ABOUT ATRIUM PHYSIOTHERAPY FACTS</span>
           </div>
         </div>
       </div>
