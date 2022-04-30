@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="icon-f">
                 <BsFillTelephoneFill />
               </div>
-              <p>Phone: 403.255.4461</p>
+              <p>Phone: (403)-255 4461</p>
             </div>
           </div>
           <div className="redes">
@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
       <div className="appointmentbtn footer-appo">
         <Link href="/Appointment">
-          <a className="btn appointment">Make An Appointment</a>
+          <button className="appointment main">Make An Appointment</button>
         </Link>
       </div>
       <div className="copyright">
@@ -79,7 +79,7 @@ const Footer = () => {
           <a className="by" href="#">
             OnPoint Media
           </a>{" "}
-          | Copyright ©2022 All rights reserved
+          | Copyright© 2022 All rights reserved
         </h2>
       </div>
     </div>

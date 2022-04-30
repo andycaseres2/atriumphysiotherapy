@@ -18,7 +18,7 @@ const CarruselImg = () => {
         <Carousel className="Car" autoPlay>
           <div>
             <img src={clinic1} />
-            <p className="legend">Legend 1</p>
+            <p className="legend">loren2</p>
           </div>
           <div>
             <img src={clinic3} />

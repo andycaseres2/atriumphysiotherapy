@@ -25,15 +25,17 @@ const Appointment = () => {
               <input type='text' name='email' placeholder='Email' />
               <select name='service' id='' class='form-control'>
                 <option>Select Your Services</option>
-                <option>Health Insurance &amp; Cash </option>
+                <option>Physiotherapy</option>
+                <option>Acupunture</option>
+                <option>Massage Therapy</option>
                 <option>Motor Vehicle Accident</option>
-                <option>Workers Compensation </option>
+                <option>Workplace Injury Program</option>
                 <option>Other Services</option>
               </select>
               <input type='number' name='phone' placeholder='Phone' />
               <input type='text' name='message' placeholder='Message' />
               <input type='date' name='date' placeholder='Date' />
-              <button>enviar</button>
+              <button className='appointment btn'>Book</button>
             </form>
           </div>
         </div>

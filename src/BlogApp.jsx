@@ -5,7 +5,7 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 
-function App() {
+function BlogApp() {
   const currentUser = true;
   return (
     <Router >
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default BlogApp;
