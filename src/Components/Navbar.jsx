@@ -12,6 +12,9 @@ export const Navbar = () => {
           <Link href="/About">
             <a className="menuitem">About</a>
           </Link>
+          <Link href="/Services">
+            <a className="menuitem">Services</a>
+          </Link>
         </ul>
         <div className="appointmentbtn">
           <Link href="/Appointment">

@@ -95,7 +95,33 @@ const ServicesCarrousel = () => {
               <img src={service17} alt="" />
               <p className="legend">Physiotherapy</p>
             </div>
-          </Carousel>
+          <Carousel />
+        </div>
+        <div className="firstappointment">
+          <h1 className="servicetitle">What Can I Expect During My First Appointment?</h1>
+          <p className="servicecontent">
+            On arrival, you may be asked to fill out paperwork or complete medical history forms. Your physiotherapist will then conduct a detailed assessment of your problem or condition. This takes about 30-45 minutes and normally involves:
+          </p>
+          <ul className="servicelist">           
+          <li>Where you are having the problem</li>
+          <li>How the problem started</li>
+          <li>How the problem is affecting your ability to do daily activities</li>
+          <li>Your past medical history</li>
+          <li>Any medications you are taking</li>
+          <li>Your physiotherapist may also need to ask additional questions depending on your problem or condition.</li>
+          </ul>
+          <p>A detailed physical examination includes: </p>
+          <ul>
+            <li>Checking your posture</li>
+            <li>Examining range of motion</li>
+            <li>Testing muscle strength, ligaments, tendons, and nerves</li>
+          </ul>
+          <p>
+            Your physiotherapist may also check your balance, walking or how much you can lift or carry. Once the assessment is complete, your physiotherapist will explain what is causing the problem and discuss a physiotherapy treatment program.
+          </p>
+          <p>
+            You will then be asked to give consent to the treatment program. Before giving consent, make sure you fully understand the treatment plan. Ask if you need clarification. Your physiotherapist will explain the treatment plan in more detail. 
+          </p>
         </div>
       </div>
   ); 

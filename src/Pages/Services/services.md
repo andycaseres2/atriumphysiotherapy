@@ -14,7 +14,7 @@ Our physiotherapists help patients who may have otherwise tried temporary (e.g.,
 
 Through physiotherapy, many patients are able to recover unrestricted movement which promotes the kind of physical independence necessary for a normal lifestyle and work. When it comes to assessing and treating people with movement problems, the services of a physiotherapist are often essential.
 
-##Needling/Intramuscular Stimulation (IMS)##
+## Needling/Intramuscular Stimulation (IMS) ##
 
 Dry Needling is a valuable, effective and efficient adjunct treatment to inactivate myofascial trigger points. It is an invasive procedure in which a thin solid filament sterile needle is used. Dry Needling involves insertion and repetitive manipulation of the needle in the myofascial trigger point. The purpose of this technique is to inactivate the myofascial trigger points by producing a local twitch response. This local twitch response then releases the shortened bands of muscle fibers. The result is muscle relaxation and pain relief. Eliciting this local twitch response is important for successful deactivation of the trigger point. No medication of any kind is injected. Inactivation of the trigger points can bring immediate relief of symptoms. 
 
@@ -42,7 +42,7 @@ The most serious risk with FDN is accidental puncture of a lung (pneumothorax). 
 
 Other less serious risks include infection and bruising: Any time a needle is used there is a risk of infection. However, your practitioner uses new, disposable and sterile needles, and is trained to the highest level of aseptic skin preparation and needle insertion technique. Therefore, infections are extremely rare. Injury to a blood vessel causing a bruise, and/or nerve injury may also occur. Bruising is a common occurrence and should not be a concern. 
 
-##Acupuncture##
+## Acupuncture ##
 
 Acupuncture is an ancient form of Chinese medicine involving the insertion of ultra-fine needles into specific points of the skin. These points of energy are located along 14 meridians, or channels, that cover the entire body. Using modern techniques, contemporary medical acupuncture is able to precisely stimulate nerves to modulate pain and other dysfunctions.
 
