@@ -4,7 +4,7 @@ import About from "./Pages/About/About";
 import { Route } from "wouter";
 import Covid19 from "./Pages/Covid-19/Covid19";
 import Appointment from "./Pages/Appointment/Appointment";
-import Services from "./Pages/Services";
+import Services from "./Pages/Services/Physiotherapy";
 
 function App() {
   return (
