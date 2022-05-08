@@ -7,7 +7,7 @@ import SectionTitle from "../../Components/SectionTitle";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact">
       <SectionInfo />
       <Navbar />
       <SectionTitle title="Contact" />
