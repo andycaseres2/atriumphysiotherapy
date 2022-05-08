@@ -4,7 +4,7 @@ import About from "./Pages/About/About";
 import { Route } from "wouter";
 import Covid19 from "./Pages/Covid-19/Covid19";
 import Appointment from "./Pages/Appointment/Appointment";
-import Services from "./Pages/Services/Physiotherapy";
+import Services from "./Pages/Services/Services";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Route path="/About" component={About} />
       <Route path="/Covid19" component={Covid19} />
       <Route path="/Appointment" component={Appointment} />
-      <Route path="/Services/" component={Services} />
+      <Route path="/Services" component={Services} />
     </div>
   );
 }

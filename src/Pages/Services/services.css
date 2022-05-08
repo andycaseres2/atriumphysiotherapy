@@ -1,0 +1,7 @@
+.serviceContainer {
+    display: grid;
+    grid-template: 100px 100px 100px / 120px 120px 120px 120px;
+    grid-auto-flow: row;
+    gap: 10px;
+}
+

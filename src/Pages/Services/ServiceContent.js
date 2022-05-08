@@ -21,7 +21,7 @@ const Physiotherapy = () => {
         Our physiotherapists are highly-educated experts in physical function, movement and mobility. They have advanced knowledge of how the human body moves and what stops it moving and use specialized hands-on treatment to restore, maintain and maximize optimal function and quality of life.
       </p>
       <p>
-        Our physiotherapists assists, diagnose and treat physical symptoms and limited movement caused by injury, aging, disability, or medical condition. They help patients understand what’s causing their condition, and work with them to restore, maintain and maximize movement, flexibility and physical independence.
+        Our physiotherapists assists, diagnose and treat physical symptoms and limited movement caused by injury, aging, disability, or medical condition. They help patients understand what is causing their condition, and work with them to restore, maintain and maximize movement, flexibility and physical independence.
       </p>
       <p>
         Our physiotherapists develop customized treatment plans that help patients take back control. They teach patients how to restore, maintain and/or maximize movement, reduce pain, and manage any chronic symptoms.
