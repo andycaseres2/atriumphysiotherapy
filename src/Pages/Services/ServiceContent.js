@@ -1,48 +1,154 @@
-import React from 'react';
-import './services.css';
-import { Navbar } from "../../Components/Navbar";
-import SectionInfo from '../../Components/SectionInfo';
-import SectionTitle from '../../Components/SectionTitle';
-import Footer from '../../Components/Footer';
+const serviceContent = [
+  {
+    id: 1,
+    title: "Physiotherapy",
+    image: URL('../../assets/images/servicesimg/physiotherapy.jpg'),
+    serviceText() {
+      return document.getElementById("physiotherapy")
+    }
+  },
+  {
+    id: 2,
+    title: "Needling / Instramuscular Stimulation (IMS)",
+    image: URL('../../assets/images/servicesimg/ims1.jpg'),
+    serviceText() {
+      return document.getElementById("ims")
+    }
+  },
+  {
+    id: 3,
+    title: "Acupuncture",
+    image: URL('../../assets/images/servicesimg/acupuncture.jpg'),
+    serviceText() {
+      return document.getElementById("acupuncture")
+    }
+  },
+  {
+    id: 4,
+    title: "Graston Technique",
+    image: URL('../../assets/images/servicesimg/Graston.jpg'),
+    serviceText() {
+      return document.getElementById("graston")
+    }
+  },
+  {
+    id: 5,
+    title: "Spinal Decompression Work",
+    image: URL('../../assets/images/servicesimg/'),
+    serviceText() {
+      return document.getElementById("spinal-decompression")
+    }
+  },
+  {
+    id: 6,
+    title: "Low Intensity Laser Therapy",
+    image: URL('../../assets/images/servicesimg/physiotherapy.jpg'),
+    serviceText() {
+      return document.getElementById("laser-therapy")
+    }
+  },
+  {
+    id: 7,
+    title: "K-Tape",
+    image: URL('../../assets/images/servicesimg/ktape.jpeg'),
+    serviceText() {
+      return document.getElementById("ktape")
+    }
+  },
+  {
+    id: 8,
+    title: "Massage Therapy",
+    image: URL('../../assets/images/servicesimg/massage_therapy.jpg'),
+    serviceText() {
+      return document.getElementById("massage-therapy")
+    }
+  },
+  {
+    id: 9,
+    title: "Cupping Therapy",
+    image: URL('../../assets/images/servicesimg/cupping.jpeg'),
+    serviceText() {
+      return document.getElementById("cupping-therapy")
+    }
+  },
+  {
+    id: 10,
+    title: "Hot Stone Massage",
+    image: URL('../../assets/images/servicesimg/hot-stone-massage-one.jpeg'),
+    serviceText() {
+      return document.getElementById("hotstonemassage")
+    }
+  },
+  {
+    id: 11,
+    title: "Custom Crafted Orthotics",
+    image: URL('../../assets/images/servicesimg/custom-crafted-orthotics.jpg'),
+    serviceText() {
+      return document.getElementById("Custom Crafted Orthotics")
+    }
+  },
+  {
+    id: 12,
+    title: "MVA (Motor Vehicle Accident)",
+    image: URL('../../assets/images/servicesimg/mva.jpg'),
+    serviceText() {
+      return document.getElementById("mva")
+    }
+  },
+  {
+    id: 13,
+    title: "WCB Alberta",
+    image: URL('../../assets/images/servicesimg/wcb.jpg'),
+    serviceText() {
+      return document.getElementById("wcb")
+    }
+  },
+  {
+    id: 14,
+    title: "Private Insurance Claims",
+    image: URL('../../assets/images/servicesimg/private-insurance-claims.jpg'),
+    serviceText() {
+      return document.getElementById("insurance")
+    }
+  },
+  {
+    id: 15,
+    title: "Active Release Technique (ART)",
+    image: URL('../../assets/images/servicesimg/art.jpg'),
+    serviceText() {
+      return document.getElementById("art")
+    }
+  },
+  {
+    id: 16,
+    title: "Vestibular Rehabilitations",
+    image: URL('../../assets/images/servicesimg/vestibular-rehab.jpg'),
+    serviceText() {
+      return document.getElementById("vestibular")
+    }
+  },
+  {
+    id: 17,
+    title: "Pelvic Floor Physiotherapy",
+    image: URL('../../assets/images/servicesimg/pelvic-physio.jpg'),
+    serviceText() {
+      return document.getElementById("pelvic")
+    }
+  },
+  {
+    id: 16,
+    title: "Active Release Technique (ART)",
+    image: URL('../../assets/images/servicesimg/art.jpg'),
+    serviceText() {
+      return document.getElementById("art")
+    }
+  }
+]
 
 
 
-const Physiotherapy = () => {
-  return (
-    <div>
-    <SectionInfo />
-    <Navbar />
-    <SectionTitle title='Our Services' />
-    <section className="Services">
-      <h1 className="servicetitle">Physiotherapy</h1>
-      <img src='../../assets/images/servicesimg/physiotherapy.jpg'></img>
-      <div className='servicecontent'>
-      <p>
-        Our physiotherapists are highly-educated experts in physical function, movement and mobility. They have advanced knowledge of how the human body moves and what stops it moving and use specialized hands-on treatment to restore, maintain and maximize optimal function and quality of life.
-      </p>
-      <p>
-        Our physiotherapists assists, diagnose and treat physical symptoms and limited movement caused by injury, aging, disability, or medical condition. They help patients understand what is causing their condition, and work with them to restore, maintain and maximize movement, flexibility and physical independence.
-      </p>
-      <p>
-        Our physiotherapists develop customized treatment plans that help patients take back control. They teach patients how to restore, maintain and/or maximize movement, reduce pain, and manage any chronic symptoms.
-      </p>
-      <p>
-        Our physiotherapists excel in the treatment of many conditions: back pain/injury, whiplash, pregnancy-related muscle/joint issues, urinary incontinence and vertigo to name a few. They also help patients manage symptoms of chronic conditions like arthritis and chronic pain.
-      </p>
-      <p>
-        Our physiotherapists help patients who may have otherwise tried temporary (e.g., prescription drugs) or more invasive methods (e.g., surgery) to manage their condition. They use individualized therapeutic exercise, manual therapy and other treatment techniques.
-      </p>
-      <p>
-        Through physiotherapy, many patients are able to recover unrestricted movement which promotes the kind of physical independence necessary for a normal lifestyle and work. When it comes to assessing and treating people with movement problems, the services of a physiotherapist are often essential.
-      </p>
-      </div>
-    </section>
-    <Footer />
-    </div>
-  )
-}
 
 
-export default Physiotherapy;
+
 
 
