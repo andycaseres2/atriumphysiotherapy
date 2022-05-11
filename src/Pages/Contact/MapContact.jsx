@@ -38,12 +38,14 @@ const MapContact = () => {
           <FormControl className="container-form ">
             <Stack>
               <Input
+                name="name"
                 className="name_"
                 id="name"
                 type="text"
                 placeholder="Name"
               />
               <Input
+                name="email"
                 className="email_"
                 id="email"
                 type="email"
@@ -52,6 +54,7 @@ const MapContact = () => {
               <InputGroup>
                 <InputLeftElement pointerEvents="none" />
                 <Input
+                  name="tel"
                   className="tel"
                   id="tel"
                   type="tel"
@@ -60,6 +63,7 @@ const MapContact = () => {
               </InputGroup>
               <Stack spacing={4}>
                 <Input
+                  name="subject"
                   className="subject"
                   id="subject"
                   type="text"
@@ -67,6 +71,7 @@ const MapContact = () => {
                 />
               </Stack>
               <Textarea
+                name="message"
                 id="message"
                 className="message"
                 placeholder="Message"
