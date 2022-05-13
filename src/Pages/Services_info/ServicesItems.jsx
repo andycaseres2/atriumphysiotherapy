@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, GridItem } from "@chakra-ui/react";
 import "./servicesitems.css";
 
-export const ServicesItems = (item , setCurrent) => {
+export const ServicesItems = ({item , setCurrent}) => {
   return (
       <Grid onClick={() => setCurrent(item.id)}
         className="services"

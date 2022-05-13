@@ -13,10 +13,6 @@ const Services = () => {
 
   const [current , setCurrent] = useState()
 
-  useEffect(() => {
-    setCurrent(servicesdata)
-  }, []);
-
 
   return (
     <>
@@ -31,13 +27,13 @@ const Services = () => {
       <div className="grid_services">
         <Grid className="grid_services" templateColumns='repeat(5, 1fr)' gap={6} mt={2}>
       {servicesdata.map(item =>
-      <ServicesItems setCurrent={setCurrent} key={item.id} {...item} />
+      <ServicesItems  key={item.id} item={item} setCurrent={setCurrent} />
       )}
       </Grid>
       </div>
     <div>
    <Box>
-        {servicesdata.map(item => item.id === current && (<Services_Content key={item.id} {...item}/>))}
+        {current && servicesdata.map(item => item.id === current && (<Services_Content key={item.id} {...item}/>))}
    </Box>
     </div>
       <Footer />

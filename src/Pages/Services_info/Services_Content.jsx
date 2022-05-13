@@ -1,5 +1,5 @@
 import React from 'react'
-import {Stack ,} from "@chakra-ui/react"
+import {Stack , Text} from "@chakra-ui/react"
 
 export const Services_Content = (item) => {
   return (
