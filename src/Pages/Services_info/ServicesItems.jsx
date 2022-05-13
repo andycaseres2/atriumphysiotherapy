@@ -2,19 +2,14 @@ import React from "react";
 import { Grid, GridItem } from "@chakra-ui/react";
 import "./servicesitems.css";
 
-export const ServicesItems = () => {
+export const ServicesItems = (item , setCurrent) => {
   return (
-    <>
-      <Grid
+      <Grid onClick={() => setCurrent(item.id)}
         className="services"
-        templateColumns="repeat(5, 1fr)"
-        gap={6}
-        p={100}
-      >
+        templateRows='repeat(1, 1fr)'>
         <GridItem className="servicesitems" w="100%" h="100" bg="blue">
-          Hola
+         <h4>{item.title}</h4>
         </GridItem>
       </Grid>
-    </>
   );
 };

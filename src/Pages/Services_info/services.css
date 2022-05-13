@@ -1,0 +1,29 @@
+.services_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    }
+
+
+.grid_services{
+    margin-top: 50px;
+}
+
+.title_services{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px ;
+}
+
+.subtitle_services{
+    letter-spacing: 7px;
+    font-size: 18px;
+    color  : gray;
+    margin: 10px ;
+}
+
+.parrafo_services{
+    color   : gray;
+    font-size: 18px;
+    margin: 10px;
+}
