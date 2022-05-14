@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SectionInfo from "../../Components/SectionInfo";
 import { Navbar } from "../../Components/Navbar";
-// import Footer from "../../Components/Footer";
+import Footer from "../../Components/Footer";
 import { ServicesItems } from "./ServicesItems";
 import SectionTitle from "../../Components/SectionTitle";
 import { servicesdata } from "../Services_info/services_data";
@@ -48,7 +48,7 @@ const Services = () => {
             )}
         </Box>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

@@ -17,13 +17,16 @@ export const servicesdata = [
       "Through physiotherapy, many patients are able to recover unrestricted movement which promotes the kind of physical independence necessary for a normal lifestyle and work. When it comes to assessing and treating people with movement problems, the services of a physiotherapist are often essential.",
     image: "https://atriumphysiotherapy.com/images/stretching.jpg",
     subtitle: "What Can I Expect During My First Appointment?",
+    descriptionp7:
+      "On arrival, you may be asked to fill out paperwork or complete medical history forms. Your physiotherapist will then conduct a detailed assessment of your problem or condition. This takes about 30-45 minutes and normally involves:",
   },
   {
     id: 2,
-    title: "123",
-    image: "../../assets/images/servicesimg/physiotherapy.jpg",
-    subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quas iusto exercitationem possimus nam corrupti? Debitis hic quo accusamus aliquam? Nobis deleniti ducimus impedit ad aut, numquam ipsa nam eveniet.",
+    title: "What is Functional Dry Needling/Intramuscular Stimulation (IMS)?",
+    image: "https://atriumphysiotherapy.com/images/ims1.jpg",
+    descriptionp1:
+      "Dry Needling is a valuable, effective and efficient adjunct treatment to inactivate myofascial trigger points. It is an invasive procedure in which a thin solid filament sterile needle is used. Dry Needling involves insertion and repetitive manipulation of the needle in the myofascial trigger point. The purpose of this technique is to inactivate the myofascial trigger points by producing a local twitch response. This local twitch response then releases the shortened bands of muscle fibers. The result is muscle relaxation and pain relief. Eliciting this local twitch response is important for successful deactivation of the trigger point. No medication of any kind is injected. Inactivation of the trigger points can bring immediate relief of symptoms.",
+    subtitle: "What is Myofascial Trigger Point?",
   },
   {
     id: 3,
