@@ -2,6 +2,8 @@ import React from "react";
 import "./services.css";
 
 
+
+
 const Card = ({ data, cardIndex }) => {
   return (
     <div>

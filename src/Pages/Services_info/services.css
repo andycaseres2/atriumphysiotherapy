@@ -5,7 +5,26 @@
 }
 
 
-/*Coded by Andy */
+.services div {
+ margin: 20px;
+ color: #444;
+}
+
+.line {
+    width: 100%;
+    border: 3px solid #2222;
+    display: inline-block;
+    margin: 20px 30px;
+}
+.services img {
+    height: 300px;
+}
+
+/*
+////////////////////
+///////////////////////////Coded by Andy
+//////////////////// 
+*/
 
 .services_section{
     display: flex;

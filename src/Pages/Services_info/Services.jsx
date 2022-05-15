@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Card from "./Card";
-import Data from "./Data";
+import Data from "./ServiceData";
 import "./services.css";
 
 export default function Services() {
