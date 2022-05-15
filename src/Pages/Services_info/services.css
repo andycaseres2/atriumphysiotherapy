@@ -1,3 +1,12 @@
+.card {
+    border: 5px solid #444;
+    margin: 1px 0;
+    padding: 20px;
+}
+
+
+/*Coded by Andy */
+
 .services_section{
     display: flex;
     flex-direction: column;
@@ -27,3 +36,24 @@
     font-size: 18px;
     margin: 10px;
 }
+
+.servicesitems {
+    background-color: rgb(191, 191, 191) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .servicesitems:hover {
+    background-color: rgb(0, 93, 185) !important;
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: white;
+  }
+  
