@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import Card from "./Card";
-import Data from "./ServiceData";
+import Data from "./Data";
 import "./services.css";
 
 export default function Services() {
-  const [active, setActive] = useState("FirstCard")
+  const [active, setActive] = useState("FirstCard");
 
   return (
     <div className="Services">
@@ -19,8 +19,9 @@ export default function Services() {
         {active === "ThirdCard" && <Card data={Data} cardIndex={2} />}
       </div>
     </div>
-  )
+  );
 }
+
 
 // All that follows was coded by Andy
 
