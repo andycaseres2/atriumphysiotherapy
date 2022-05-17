@@ -21,15 +21,10 @@ export const Services_Content = (item) => {
         >
           {item.title}
         </Text>
-        <Text letterSpacing={1}>{item.descriptionp1}</Text>
-        <Text letterSpacing={1}>{item.descriptionp2}</Text>
-        <Text letterSpacing={1}>{item.descriptionp3}</Text>
-        <Text letterSpacing={1}>{item.descriptionp4}</Text>
-        <Text letterSpacing={1}>{item.descriptionp5}</Text>
-        <Text letterSpacing={1}>{item.descriptionp6}</Text>
+        <Text>{item.description.content}</Text>
       </Box>
       <Box>
-        <Image mb={50} boxSize="450px" src={item.image} alt="Image" />
+        <Image mb={50} boxSize="450px" src={item.image.image} alt="Image" />
       </Box>
       {/* <Box pl={150} pr={150} mt={60}>
         <Text
