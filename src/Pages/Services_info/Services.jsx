@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
-import SectionInfo from "../../Components/SectionInfo";
-import { Navbar } from "../../Components/Navbar";
-import Footer from "../../Components/Footer";
-import { ServicesItems } from "./ServicesItems";
-import SectionTitle from "../../Components/SectionTitle";
-import { servicesdata } from "../Services_info/services_data";
-import { Grid, Box } from "@chakra-ui/react";
-import "./services.css";
-import { Services_Content } from "./Services_Content";
+import React, { useState, useEffect } from 'react'
+import SectionInfo from '../../Components/SectionInfo'
+import { Navbar } from '../../Components/Navbar'
+import Footer from '../../Components/Footer'
+import { ServicesItems } from './ServicesItems'
+import SectionTitle from '../../Components/SectionTitle'
+import { servicesdata } from '../Services_info/services_data'
+import { Grid, Box } from '@chakra-ui/react'
+import './services.css'
+import { Services_Content } from './Services_Content'
 
 const Services = () => {
-  const [current, setCurrent] = useState();
+  const [current, setCurrent] = useState()
 
   return (
     <>
@@ -50,7 +50,7 @@ const Services = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services
