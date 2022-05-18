@@ -15,6 +15,9 @@ export const Navbar = () => {
           <Link href="/Services">
             <a className="menuitem">Services</a>
           </Link>
+          <Link href="/Blogs">
+            <a className="menuitem">Blogs</a>
+          </Link>
           <Link href="/Contact">
             <a className="menuitem">Contact</a>
           </Link>
