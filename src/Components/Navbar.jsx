@@ -1,5 +1,5 @@
-import "./navbar.css";
-import { Link } from "wouter";
+import './navbar.css'
+import { Link } from 'wouter'
 
 export const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ export const Navbar = () => {
             <a className="menuitem">Services</a>
           </Link>
           <Link href="/Blogs">
-            <a className="menuitem">Blogs</a>
+            <a className="menuitem">Blog</a>
           </Link>
           <Link href="/Contact">
             <a className="menuitem">Contact</a>
@@ -29,5 +29,5 @@ export const Navbar = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
