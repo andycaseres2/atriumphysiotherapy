@@ -1,12 +1,12 @@
-import React from "react";
-import SectionInfo from "../../Components/SectionInfo";
-import { Navbar } from "../../Components/Navbar";
-import SectionTitle from "../../Components/SectionTitle";
-import Footer from "../../Components/Footer";
-import { Grid } from "@chakra-ui/react";
-
-import { PostData } from "./PostData";
-import { PostItem } from "./PostItem";
+import React from 'react'
+import SectionInfo from '../../Components/SectionInfo'
+import { Navbar } from '../../Components/Navbar'
+import SectionTitle from '../../Components/SectionTitle'
+import Footer from '../../Components/Footer'
+import { Grid } from '@chakra-ui/react'
+import { AddPost } from './AddPost'
+import { PostData } from './PostData'
+import { PostItem } from './PostItem'
 
 const Blogs = () => {
   return (
@@ -19,9 +19,10 @@ const Blogs = () => {
           <PostItem key={post.id} {...post} />
         ))}
       </Grid>
+      <AddPost />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Blogs;
+export default Blogs

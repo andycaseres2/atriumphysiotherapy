@@ -1,0 +1,30 @@
+.container-addblog {
+  -webkit-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+input,
+textarea {
+  width: 500px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px !important;
+}
+
+input,
+textarea:focus {
+  outline: none !important;
+}
+
+.title-addblog {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 380px;
+  height: 50px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
