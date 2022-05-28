@@ -5,31 +5,31 @@ import './cardshome.css'
 const infoCards = [
   {
     class: 'card1',
-    icon: 'http://cdn.onlinewebfonts.com/svg/img_491471.png',
-    title: 'Qualified',
+    icon: 'https://cdn-icons-png.flaticon.com/512/3209/3209080.png',
+    title: 'Qualified Professionals',
     description:
-      'Our physiotherapists and other service providers are committed to excellence. Providing the highest standards of care. Top-notch customer service and treatment approach that is evidence based and proven to be successful.',
-  },
+      'Top-notch customer service and treatment approach that is evidence based and proven to be successful'
+    },
   {
     class: 'card2',
-    icon: '',
-    title: 'Extensive',
+    icon: 'https://cdn-icons.flaticon.com/png/512/2961/premium/2961342.png?token=exp=1653754938~hmac=28828a0730b21fcf8bacb3ceadcfef55',
+    title: 'Extensive Experience',
     description:
-      'With over 20 years of combined experience we have extensive knowledge in many areas of physical and mental health.',
+      'Over 20 years of combined experience, and extensive knowledge in many areas of physical and mental health',
   },
   {
     class: 'card3',
-    icon: '',
+    icon: 'https://cdn-icons-png.flaticon.com/512/3953/3953604.png',
     title: 'Leading Technology',
     description:
-      'Our staff uses leading technology to diagnose patient issues and concerns. Allowing for agile treatment techniques',
+      'Agile treatment techniques led by advanced technology to diagnose patient issues and concerns',
   },
   {
     class: 'card4',
-    icon: '',
-    title: 'Direct Billing',
+    icon: 'https://cdn-icons.flaticon.com/png/512/4494/premium/4494193.png?token=exp=1653755185~hmac=b1012dcb1adfe8f42fc208d00f0cec92',
+    title: 'Direct Billing', //look for ways to have the word "billing in a seperate line"
     description:
-      'We provide direct billing to various public and private insurance providers in addition to all MVA and WCB Claims.',
+      'Direct billing to various public and private insurance providers in addition to all MVA and WCB Claims',
   },
 ]
 
@@ -57,10 +57,10 @@ export const CardsHome = () => {
               >
                 <Box boxSize="sm" paddingTop={10}>
                   <Image
-                    borderRadius={999}
+                    borderRadius={10}
                     width="50px"
                     src={card.icon} className="cardIcon"
-                    alt="Dan Abramov"
+                    alt="We have..."
                   />
                 </Box>
                 <Box display="flex" flexDirection="column">
@@ -68,11 +68,19 @@ export const CardsHome = () => {
                     m={5}
                     letterSpacing={2}
                     fontSize="25px"
-                    fontWeight="bold"
+                    fontFamily="Roboto"
+                    fontWeight="semibold"
                   >
                     {card.title}
                   </Text>
-                  <Text m={0} padding={25} letterSpacing="2px">
+                  <Text 
+                  m={0} 
+                  padding={25} 
+                  letterSpacing="2px"
+                  lineHeight={1.4}
+                  fontFamily="Roboto"
+                  fontWeight={500}
+                  >
                     {card.description}
                   </Text>
                 </Box>
