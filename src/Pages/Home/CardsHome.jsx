@@ -5,7 +5,7 @@ import './cardshome.css'
 const infoCards = [
   {
     class: 'card1',
-    icon: '',
+    icon: 'http://cdn.onlinewebfonts.com/svg/img_491471.png',
     title: 'Qualified',
     description:
       'Our physiotherapists and other service providers are committed to excellence. Providing the highest standards of care. Top-notch customer service and treatment approach that is evidence based and proven to be successful.',
@@ -59,7 +59,7 @@ export const CardsHome = () => {
                   <Image
                     borderRadius={999}
                     width="50px"
-                    src="https://bit.ly/dan-abramov"
+                    src={card.icon} className="cardIcon"
                     alt="Dan Abramov"
                   />
                 </Box>
