@@ -5,25 +5,25 @@ import imagestaffhome from "../../assets/images/homepageStaffPhoto.jpg";
 export const AboutHome = () => {
   return (
     <>
-      <Stack>
+      <Stack pl="150px" pr="150px">
         <Stack>
           <Box>
             <Image width={800} src={imagestaffhome} alt="Dan Abramov" />
           </Box>
-          <Stack>
-            <Text>ABOUT ATRIUM PHYSIOTHERAPY</Text>
-            <Text>
-              We proudly provide quality, comprehensive Physiotherapy and
+          <Stack textAlign="left">
+            <Text letterSpacing="3px">ABOUT ATRIUM PHYSIOTHERAPY</Text>
+            <Text pb={40} letterSpacing="3px" fontWeight="bold" fontSize="28px">
+              We proudly prov8de quality, comprehensive Physiotherapy and
               Massage Therapy and Custom Crafted Orthotics
             </Text>
-            <Text>
+            <Text letterSpacing="2px" pb={40}>
               Atrium Physiotherapy looks to integrate customized physiotherapy
               treatment with injury prevention techniques to ensure overall
               musculoskeletal well being. Our mission is to treat immediate
               needs while providing a strengthening program that will speed up
               recovery and lead to long term health.
             </Text>
-            <Text>
+            <Text letterSpacing="2px" pb={40}>
               You are in the right hands, experienced therapists you can trust,
               helping you towards an optimal well being.
             </Text>
@@ -31,7 +31,7 @@ export const AboutHome = () => {
         </Stack>
         <Stack>
           <Stack>
-            <Stack>
+            <Stack textAlign="left">
               {" "}
               //icon
               <Text>
@@ -52,7 +52,7 @@ export const AboutHome = () => {
             </Stack>
           </Stack>
           <Stack>
-            <Stack>
+            <Stack textAlign="left">
               //icon
               <Text>
                 Our Physiotherapist combine a balanced approach after properly
