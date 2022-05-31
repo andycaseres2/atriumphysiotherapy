@@ -75,15 +75,12 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <h2 className="copy">
-          Created by {" | "}
+          Created by {" "}
           <a className="by" href="#">
-            Andy Caseres
+            DotsApart
           </a>
           {" | "}
-          <a className="by" href="#">
-            Damian Roiz
-          </a>{" "}
-          | Copyright ©2022 All rights reserved
+          Copyright ©2022 All rights reserved
         </h2>
       </div>
     </div>
