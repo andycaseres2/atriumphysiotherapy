@@ -12,9 +12,8 @@ export const AboutHome = () => {
             <Image width={900} src={imagestaffhome} alt="Dan Abramov" />
           </Box>
           <Stack textAlign="left">
-            <Text 
-letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
-            <Text fontWeight="bold" fontSize="28px" className="titleh2">
+            <Text className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
+            <Text className="subtitle">
               We proudly provide quality, comprehensive Physiotherapy and
               Massage Therapy and Custom Crafted Orthotics
             </Text>
@@ -31,11 +30,10 @@ letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
             </Text>
           </Stack>
         </Stack>
-        <Stack>
-          <Stack>
+        <Stack className="stackContainer">   
             <Stack textAlign="left">
               {" "}
-              //icon
+              <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text  className="text">
                 We integrate customized physiotherapy treatment with injury
                 prevention techniques to ensure overall musculoskeletal well
@@ -43,7 +41,7 @@ letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
               </Text>
             </Stack>
             <Stack>
-              //icon
+            <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text  className="text">
                 Physiotherapy modalities, Low Intensity Laser, deep tissue
                 massage, active resistive strengthening techniques,
@@ -51,25 +49,22 @@ letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
                 some of the scientifically based solutions we apply to our
                 patients during their treatment plan.
               </Text>
-            </Stack>
-          </Stack>
-          <Stack>
+            </Stack>      
             <Stack textAlign="left">
-              //icon
+            <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text className="text">
                 Our Physiotherapist combine a balanced approach after properly
                 diagnosing the problem.
               </Text>
             </Stack>
             <Stack>
-              //icon
+            <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text className="text">
                 We believe that in order to maintain a pain free body it is
                 necessary to understand a person's specific injury and prevent
                 situations that might exacerbate or aggravate a condition.
               </Text>
             </Stack>
-          </Stack>
         </Stack>
       </Stack>
     </>

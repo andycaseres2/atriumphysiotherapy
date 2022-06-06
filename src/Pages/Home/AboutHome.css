@@ -1,3 +1,14 @@
+.subtitle {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.titleh2 {
+    font-size: 28px;
+    color: #444;
+    padding-bottom: 30px;
+}
+
 .text {
     font-size: 16px;
     padding: 5px;
@@ -5,13 +16,10 @@
     color: #222;
     text-align: left;
     margin: 0;
-    border: 1px solid red;
 }
 
-.titleh2 {
-    font-size: 28px;
-    color: #444;
-    padding-bottom: 30px;
-    border: 1px solid red;
-
+.stackContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
