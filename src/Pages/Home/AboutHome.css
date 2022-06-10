@@ -1,3 +1,7 @@
+.staffImage {
+    width: 900px
+}
+
 .subtitle {
     font-weight: 600;
     font-size: 28px;
@@ -5,7 +9,7 @@
 
 .titleh2 {
     font-size: 28px;
-    color: #444;
+    color: #333;
     padding-bottom: 30px;
 }
 
@@ -13,7 +17,7 @@
     font-size: 16px;
     padding: 5px;
     font-family: "roboto", sans-serif;
-    color: #222;
+    color: #333;
     text-align: left;
     margin: 0;
 }

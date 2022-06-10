@@ -19,7 +19,7 @@ export const AddPost = () => {
           className="title-addblog"
           fontSize="20px"
         >
-          AGREGA TU ARTICULO
+          Add your Article
         </Text>
         <Input placeholder="Title" />
         <Textarea height={150} placeholder="Description" />

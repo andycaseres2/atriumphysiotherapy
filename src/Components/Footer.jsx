@@ -77,7 +77,7 @@ const Footer = () => {
         <h2 className="copy">
           Created by {" "}
           <a className="by" href="#">
-            DotsApart
+            OnPoint Media
           </a>
           {" | "}
           Copyright ©2022 All rights reserved
