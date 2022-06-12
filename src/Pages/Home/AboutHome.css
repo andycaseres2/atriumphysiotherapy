@@ -22,18 +22,8 @@
     margin: 0;
 }
 
-<<<<<<< HEAD
-.titleh2 {
-    font-size: 28px;
-    color: #444;
-    padding-bottom: 30px;
-    border: 1px solid red;
-}
-
-=======
 .stackContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
->>>>>>> 005768cd7728886c680d06ad2354e3923ee17635
