@@ -9,7 +9,7 @@ export const AboutHome = () => {
       <Stack pl="150px" pr="150px">
         <Stack>
           <Box>
-            <Image className="staffImage" src={imagestaffhome} alt="Staff Photo" />
+            <Image width={900} src={imagestaffhome} alt="Dan Abramov" />
           </Box>
           <Stack textAlign="left">
             <Text className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
@@ -17,28 +17,20 @@ export const AboutHome = () => {
               We proudly provide quality, comprehensive Physiotherapy and
               Massage Therapy and Custom Crafted Orthotics
             </Text>
-            <div className="text">
-            <Text>
+            <Text className="text">
               Atrium Physiotherapy looks to integrate customized physiotherapy
               treatment with injury prevention techniques to ensure overall
               musculoskeletal well being. Our mission is to treat immediate
               needs while providing a strengthening program that will speed up
               recovery and lead to long term health.
             </Text>
-            <Text>
+            <Text className="text">
               You are in the right hands, experienced therapists you can trust,
               helping you towards an optimal well being.
             </Text>
-            </div>
-            
           </Stack>
         </Stack>
-<<<<<<< HEAD
-        <Stack className="Container">
-          <Stack>
-=======
         <Stack className="stackContainer">   
->>>>>>> 005768cd7728886c680d06ad2354e3923ee17635
             <Stack textAlign="left">
               {" "}
               <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
