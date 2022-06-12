@@ -31,7 +31,7 @@ letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
             </Text>
           </Stack>
         </Stack>
-        <Stack>
+        <Stack className="Container">
           <Stack>
             <Stack textAlign="left">
               {" "}
