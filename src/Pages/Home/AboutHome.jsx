@@ -9,33 +9,39 @@ export const AboutHome = () => {
       <Stack pl="150px" pr="150px">
         <Stack>
           <Box>
-            <Image width={900} src={imagestaffhome} alt="Dan Abramov" />
+            <Image className="staffImage" src={imagestaffhome} alt="Staff Photo" />
           </Box>
           <Stack textAlign="left">
-            <Text 
-letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
-            <Text fontWeight="bold" fontSize="28px" className="titleh2">
+            <Text className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
+            <Text className="subtitle">
               We proudly provide quality, comprehensive Physiotherapy and
               Massage Therapy and Custom Crafted Orthotics
             </Text>
-            <Text className="text">
+            <div className="text">
+            <Text>
               Atrium Physiotherapy looks to integrate customized physiotherapy
               treatment with injury prevention techniques to ensure overall
               musculoskeletal well being. Our mission is to treat immediate
               needs while providing a strengthening program that will speed up
               recovery and lead to long term health.
             </Text>
-            <Text className="text">
+            <Text>
               You are in the right hands, experienced therapists you can trust,
               helping you towards an optimal well being.
             </Text>
+            </div>
+            
           </Stack>
         </Stack>
+<<<<<<< HEAD
         <Stack className="Container">
           <Stack>
+=======
+        <Stack className="stackContainer">   
+>>>>>>> 005768cd7728886c680d06ad2354e3923ee17635
             <Stack textAlign="left">
               {" "}
-              //icon
+              <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text  className="text">
                 We integrate customized physiotherapy treatment with injury
                 prevention techniques to ensure overall musculoskeletal well
@@ -43,7 +49,7 @@ letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
               </Text>
             </Stack>
             <Stack>
-              //icon
+            <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text  className="text">
                 Physiotherapy modalities, Low Intensity Laser, deep tissue
                 massage, active resistive strengthening techniques,
@@ -51,25 +57,22 @@ letterSpacing="3px" className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
                 some of the scientifically based solutions we apply to our
                 patients during their treatment plan.
               </Text>
-            </Stack>
-          </Stack>
-          <Stack>
+            </Stack>      
             <Stack textAlign="left">
-              //icon
+            <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text className="text">
                 Our Physiotherapist combine a balanced approach after properly
                 diagnosing the problem.
               </Text>
             </Stack>
             <Stack>
-              //icon
+            <img src="https://cdn-icons.flaticon.com/png/512/2251/premium/2251677.png?token=exp=1654528005~hmac=91d4e519e73e0ae3676c87ee08880393"width={40}/>
               <Text className="text">
                 We believe that in order to maintain a pain free body it is
                 necessary to understand a person's specific injury and prevent
                 situations that might exacerbate or aggravate a condition.
               </Text>
             </Stack>
-          </Stack>
         </Stack>
       </Stack>
     </>

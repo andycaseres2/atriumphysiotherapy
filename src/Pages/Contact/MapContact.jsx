@@ -18,7 +18,7 @@ const MapContact = () => {
     <div className="container-mapcontact">
       <div className="containerMap">
         <div className="map">
-          <h3 className="title-map">Ubicacion</h3>
+          <h3 className="title-map">Location</h3>
           <div className="iframe">
             <Iframe
               className="map"
@@ -32,7 +32,7 @@ const MapContact = () => {
       <div className="containerContact">
         <h3 className="title-contact">Contact</h3>
         <p className="contact-p">
-          For any questions please send us a email or call us directly
+          For any questions please send us a e-mail or call us directly
         </p>
         <div className="contact-cont">
           <FormControl className="container-form ">
@@ -77,7 +77,7 @@ const MapContact = () => {
                 placeholder="Message"
               />
             </Stack>
-            <Button className="btn-cont">Enviar</Button>
+            <Button className="btn-cont">Send</Button>
           </FormControl>
         </div>
       </div>

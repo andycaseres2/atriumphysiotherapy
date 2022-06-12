@@ -7,17 +7,16 @@ export const Services_Content = (item) => {
       <Box
         textAlign="left"
         fontSize={18}
-        pl={150}
-        pr={150}
-        color="gray"
+        p={0, 150, 0, 150}
+        color="#2196f3" // blue tone
         justifyContent="justify"
       >
         <Text
-          color="black"
+          color= "#1A2421" //Dark jungle green
           textAlign="left"
           letterSpacing={2}
-          fontSize={25}
-          fontWeight="bold"
+          fontSize={18}
+          fontWeight="500"
         >
           {item.title}
         </Text>

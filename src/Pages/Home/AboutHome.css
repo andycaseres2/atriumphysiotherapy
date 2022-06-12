@@ -1,13 +1,28 @@
+.staffImage {
+    width: 900px
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.titleh2 {
+    font-size: 28px;
+    color: #333;
+    padding-bottom: 30px;
+}
+
 .text {
     font-size: 16px;
     padding: 5px;
     font-family: "roboto", sans-serif;
-    color: #222;
+    color: #333;
     text-align: left;
     margin: 0;
-    border: 1px solid red;
 }
 
+<<<<<<< HEAD
 .titleh2 {
     font-size: 28px;
     color: #444;
@@ -15,3 +30,10 @@
     border: 1px solid red;
 }
 
+=======
+.stackContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+>>>>>>> 005768cd7728886c680d06ad2354e3923ee17635
