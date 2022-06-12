@@ -25,26 +25,26 @@ const Services = () => {
           clinic
         </p>
         <div className="GridContainer">
-          <div>Service 1</div>
-          <div>Service 2</div>
-          <div>Service 3</div>
-          <div>Service 4</div>
-          <div>Service 5</div>
-          <div>Service 6</div>
-          <div>Service 7</div>
-          <div>Service 8</div>
-          <div>Service 9</div>
-          <div>Service 10</div>
-          <div>Service 11</div>
-          <div>Service 12</div>
-          <div>Service 13</div>
-          <div>Service 14</div>
-          <div>Service 15</div>
-          <div>Service 16</div>
-          <div>Service 17</div>
+          <div className='serviceItems'>Service 1</div>
+          <div className='serviceItems'>Service 2</div>
+          <div className='serviceItems'>Service 3</div>
+          <div className='serviceItems'>Service 4</div>
+          <div className='serviceItems'>Service 5</div>
+          <div className='serviceItems'>Service 6</div>
+          <div className='serviceItems'>Service 7</div>
+          <div className='serviceItems'>Service 8</div>
+          <div className='serviceItems'>Service 9</div>
+          <div className='serviceItems'>Service 10</div>
+          <div className='serviceItems'>Service 11</div>
+          <div className='serviceItems'>Service 12</div>
+          <div className='serviceItems'>Service 13</div>
+          <div className='serviceItems'>Service 14</div>
+          <div className='serviceItems'>Service 15</div>
+          <div className='serviceItems'>Service 16</div>
+          <div className='serviceItems'>Service 17</div>
         </div>
       </section>
-      {/* <div className="grid_services">
+      {/* <div>
         <Grid
           className="grid_services"
           templateColumns="repeat(5, 1fr)"
