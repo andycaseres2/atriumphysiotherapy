@@ -24,8 +24,27 @@ const Services = () => {
           Information pertaining to the high quality services offered by our
           clinic
         </p>
+        <div className="GridContainer">
+          <div>Service 1</div>
+          <div>Service 2</div>
+          <div>Service 3</div>
+          <div>Service 4</div>
+          <div>Service 5</div>
+          <div>Service 6</div>
+          <div>Service 7</div>
+          <div>Service 8</div>
+          <div>Service 9</div>
+          <div>Service 10</div>
+          <div>Service 11</div>
+          <div>Service 12</div>
+          <div>Service 13</div>
+          <div>Service 14</div>
+          <div>Service 15</div>
+          <div>Service 16</div>
+          <div>Service 17</div>
+        </div>
       </section>
-      <div className="grid_services">
+      {/* <div className="grid_services">
         <Grid
           className="grid_services"
           templateColumns="repeat(5, 1fr)"
@@ -36,8 +55,9 @@ const Services = () => {
             <ServicesItems key={item.id} item={item} setCurrent={setCurrent} />
           ))}
         </Grid>
-      </div>
-      <div>
+      </div> */}
+      
+      {/* <div>
         <Box>
           {current &&
             servicesdata.map(
@@ -47,7 +67,8 @@ const Services = () => {
                 )
             )}
         </Box>
-      </div>
+      </div> */}
+
       <Footer />
     </>
   )
