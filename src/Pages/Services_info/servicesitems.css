@@ -23,7 +23,7 @@
   line-height: 20px;
 }
 
-.active:active {
+.active {
   background-color: #1f305e;
   border-top: 4px solid grey;
   color: #fff;
