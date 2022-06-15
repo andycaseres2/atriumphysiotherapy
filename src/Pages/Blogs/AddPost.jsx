@@ -1,6 +1,6 @@
-import React from 'react'
-import { Input, Stack, Textarea, Text } from '@chakra-ui/react'
-import './addblog.css'
+import React from "react";
+import { Input, Stack, Textarea, Text } from "@chakra-ui/react";
+import "./addblog.css";
 
 export const AddPost = () => {
   return (
@@ -23,8 +23,8 @@ export const AddPost = () => {
         </Text>
         <Input placeholder="Title" />
         <Textarea height={150} placeholder="Description" />
-        <Input placeholder="Adjunt image" />
+        <Input className="file" type="file" placeholder="Adjunt image" />
       </Stack>
     </>
-  )
-}
+  );
+};
