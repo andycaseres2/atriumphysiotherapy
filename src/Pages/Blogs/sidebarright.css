@@ -1,0 +1,10 @@
+.sidebarright {
+  width: 20%;
+  height: 100%;
+  color: rgb(43, 18, 143);
+}
+
+li {
+  font-size: 20px;
+  padding: 10px;
+}
