@@ -5,8 +5,9 @@
 }
 
 .section-Blog {
+  width: 60%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 13rem;
   height: 100vh;
 }
