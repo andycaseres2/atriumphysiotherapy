@@ -25,9 +25,14 @@ const Services = () => {
         </p>
       </section>
 
-      <div className="GridContainer">
+      <div className={"GridContainer"}>
         {servicesdata.map((item) => (
-          <ServicesItems key={item.id} item={item} setCurrent={setCurrent} />
+          <ServicesItems
+            key={item.id}
+            item={item}
+            current={current}
+            setCurrent={setCurrent}
+          />
         ))}
       </div>
 

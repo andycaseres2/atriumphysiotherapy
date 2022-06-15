@@ -2,18 +2,15 @@ import React, { useState } from "react";
 import "./servicesitems.css";
 import "./services.css";
 
-export const ServicesItems = ({ item, setCurrent }) => {
-  const [active, setActive] = useState(false);
-
+export const ServicesItems = ({ item, setCurrent, current }) => {
   const handleClick = () => {
-    setActive(!active);
     setCurrent(item.id);
   };
 
   return (
     <div
       onClick={handleClick}
-      className={active ? "servicesitems active" : "servicesitems"}
+      className={item.id === current ? "servicesitems active" : "servicesitems"}
     >
       <div>
         <h4 className="servicesitems-title">{item.title}</h4>
