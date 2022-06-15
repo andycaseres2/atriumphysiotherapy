@@ -6,11 +6,11 @@ export const SideBarRight = () => {
     <div className="sidebarright">
       <h2>Categorias</h2>
       <ul>
-        <li>generico</li>
-        <li>generico</li>
-        <li>generico</li>
-        <li>generico</li>
-        <li>generico</li>
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
+        <li>Link 4</li>
+        <li>Link 5</li>
       </ul>
     </div>
   );

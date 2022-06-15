@@ -2,9 +2,18 @@
   width: 20%;
   height: 100%;
   color: rgb(43, 18, 143);
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 li {
   font-size: 20px;
+  letter-spacing: 2px;
   padding: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
 }
