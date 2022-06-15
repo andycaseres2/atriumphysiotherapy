@@ -1,17 +1,23 @@
-import React from "react";
-import { Grid, GridItem } from "@chakra-ui/react";
+import React, { useState } from "react";
 import "./servicesitems.css";
+import "./services.css";
 
 export const ServicesItems = ({ item, setCurrent }) => {
+  const [active, setActive] = useState(false);
+
+  const handleClick = () => {
+    setActive(!active);
+    setCurrent(item.id);
+  };
+
   return (
-    <Grid
-      onClick={() => setCurrent(item.id)}
-      className="services"
-      templateRows="repeat(1, 1fr)"
+    <div
+      onClick={handleClick}
+      className={active ? "servicesitems active" : "servicesitems"}
     >
-      <GridItem className="servicesitems" w="99%" h="100" bg="blue">
-        <h4>{item.title}</h4>
-      </GridItem>
-    </Grid>
+      <div>
+        <h4 className="servicesitems-title">{item.title}</h4>
+      </div>
+    </div>
   );
 };

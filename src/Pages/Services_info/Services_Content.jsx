@@ -1,5 +1,5 @@
-import React from 'react'
-import { Stack, Text, Image, Box } from '@chakra-ui/react'
+import React from "react";
+import { Stack, Text, Image, Box } from "@chakra-ui/react";
 
 export const Services_Content = (item) => {
   return (
@@ -7,12 +7,12 @@ export const Services_Content = (item) => {
       <Box
         textAlign="left"
         fontSize={18}
-        p={0, 150, 0, 150}
+        p={(0, 150, 0, 150)}
         color="#2196f3" // blue tone
         justifyContent="justify"
       >
         <Text
-          color= "#1A2421" //Dark jungle green
+          color="#1A2421" //Dark jungle green
           textAlign="left"
           letterSpacing={2}
           fontSize={18}
@@ -39,5 +39,5 @@ export const Services_Content = (item) => {
         </Text>
       </Box> */}
     </Stack>
-  )
-}
+  );
+};

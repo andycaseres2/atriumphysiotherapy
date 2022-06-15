@@ -1,16 +1,15 @@
-import React, { useState } from 'react'
-import SectionInfo from '../../Components/SectionInfo'
-import { Navbar } from '../../Components/Navbar'
-import Footer from '../../Components/Footer'
-import { ServicesItems } from './ServicesItems'
-import SectionTitle from '../../Components/SectionTitle'
-import { servicesdata } from '../Services_info/services_data'
-import { Grid, Box } from '@chakra-ui/react'
-import './services.css'
-import { Services_Content } from './Services_Content'
+import React, { useState } from "react";
+import SectionInfo from "../../Components/SectionInfo";
+import { Navbar } from "../../Components/Navbar";
+import Footer from "../../Components/Footer";
+import { ServicesItems } from "./ServicesItems";
+import SectionTitle from "../../Components/SectionTitle";
+import { servicesdata } from "../Services_info/services_data";
+import "./services.css";
+import { Services_Content } from "./Services_Content";
 
 const Services = () => {
-  const [current, setCurrent] = useState()
+  const [current, setCurrent] = useState();
 
   return (
     <>
@@ -25,20 +24,15 @@ const Services = () => {
           clinic
         </p>
       </section>
-      <div className="grid_services">
-        <Grid
-          className="grid_services"
-          templateColumns="repeat(5, 1fr)"
-          gap={6}
-          mt={2}
-        >
-          {servicesdata.map((item) => (
-            <ServicesItems key={item.id} item={item} setCurrent={setCurrent} />
-          ))}
-        </Grid>
+
+      <div className="GridContainer">
+        {servicesdata.map((item) => (
+          <ServicesItems key={item.id} item={item} setCurrent={setCurrent} />
+        ))}
       </div>
+
       <div>
-        <Box>
+        <div>
           {current &&
             servicesdata.map(
               (item) =>
@@ -46,11 +40,12 @@ const Services = () => {
                   <Services_Content key={item.id} {...item} />
                 )
             )}
-        </Box>
+        </div>
       </div>
+
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
