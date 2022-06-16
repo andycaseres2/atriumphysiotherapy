@@ -15,4 +15,5 @@ code {
 
 html {
   scroll-behavior: smooth;
+  max-width: 1900px;
 }
