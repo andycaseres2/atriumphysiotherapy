@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./servicesitems.css";
 import "./services.css";
 
