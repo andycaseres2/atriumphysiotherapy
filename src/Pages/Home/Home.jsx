@@ -5,6 +5,8 @@ import Footer from "../../Components/Footer";
 import { SliderHome } from "./SliderHome";
 import { CardsHome } from "./CardsHome";
 import { AboutHome } from "./AboutHome";
+import { Reviews } from "./Reviews";
+import { BannerApoint } from "./BannerApoint";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <SliderHome />
       <CardsHome />
       <AboutHome />
+      <BannerApoint />
+      <Reviews />
       <Footer />
     </div>
   );
