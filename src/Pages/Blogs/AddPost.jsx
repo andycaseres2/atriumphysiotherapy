@@ -24,6 +24,7 @@ export const AddPost = () => {
         <Input placeholder="Title" />
         <Textarea height={150} placeholder="Description" />
         <Input className="file" type="file" placeholder="Adjunt image" />
+        <Input type="submit" value="Send" w={200} className="btn-addblogs" />
       </Stack>
     </>
   );
