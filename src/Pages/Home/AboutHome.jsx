@@ -12,19 +12,21 @@ export const AboutHome = () => {
             <Image width={1000} src={imagestaffhome} alt="Dan Abramov" />
           </Box>
           <Stack textAlign="left">
-            <Text className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
+            <Text paddingTop={20} className="title">
+              ABOUT ATRIUM PHYSIOTHERAPY
+            </Text>
             <Text className="subtitle">
               We proudly provide quality, comprehensive Physiotherapy and
               Massage Therapy and Custom Crafted Orthotics
             </Text>
-            <Text className="text">
+            <Text paddingTop={30} className="text">
               Atrium Physiotherapy looks to integrate customized physiotherapy
               treatment with injury prevention techniques to ensure overall
               musculoskeletal well being. Our mission is to treat immediate
               needs while providing a strengthening program that will speed up
               recovery and lead to long term health.
             </Text>
-            <Text className="text">
+            <Text className="text" paddingTop="30px">
               You are in the right hands, experienced therapists you can trust,
               helping you towards an optimal well being.
             </Text>
@@ -35,6 +37,7 @@ export const AboutHome = () => {
           flexDirection="row"
           justifyContent="center"
           alignItems="center"
+          paddingTop="40px"
         >
           <Stack justifyContent="center" alignItems="center">
             <Stack
@@ -42,13 +45,19 @@ export const AboutHome = () => {
               justifyContent="center"
               alignItems="start"
             >
-              <Box border="3px solid blue" padding="10px">
+              <Box border="2px solid rgb(0, 93, 185)" padding="10px">
                 <img
+                  className="image-about-home"
                   src="https://cdn-icons-png.flaticon.com/512/4005/4005394.png"
                   width={35}
                 />
               </Box>
-              <Text className="text" position="relative" bottom="20px">
+              <Text
+                paddingLeft="10px"
+                className="text"
+                position="relative"
+                bottom="20px"
+              >
                 We integrate customized physiotherapy treatment with injury
                 prevention techniques to ensure overall musculoskeletal well
                 being
@@ -59,13 +68,19 @@ export const AboutHome = () => {
               justifyContent="center"
               alignItems="start"
             >
-              <Box border="3px solid blue" padding="10px">
+              <Box border="2px solid rgb(0, 93, 185)" padding="10px">
                 <img
+                  className="image-about-home"
                   src="https://cdn-icons-png.flaticon.com/512/110/110614.png"
                   width={35}
                 />
               </Box>
-              <Text className="text" position="relative" bottom="20px">
+              <Text
+                paddingLeft="10px"
+                className="text"
+                position="relative"
+                bottom="20px"
+              >
                 Physiotherapy modalities, Low Intensity Laser, deep tissue
                 massage, active resistive strengthening techniques,
                 proprioceptive rehabilitation and therapeutic exercise are just
@@ -81,13 +96,19 @@ export const AboutHome = () => {
               justifyContent="center"
               alignItems="start"
             >
-              <Box border="3px solid blue" padding="10px">
+              <Box border="2px solid rgb(0, 93, 185)" padding="10px">
                 <img
+                  className="image-about-home"
                   src="https://cdn-icons.flaticon.com/png/512/3070/premium/3070907.png?token=exp=1655415776~hmac=08811c736f72ce5851fae5b0b3570d7b"
                   width={35}
                 />
               </Box>
-              <Text className="text" position="relative" bottom="20px">
+              <Text
+                paddingLeft="10px"
+                className="text"
+                position="relative"
+                bottom="20px"
+              >
                 Our Physiotherapist combine a balanced approach after properly
                 diagnosing the problem.
               </Text>
@@ -97,13 +118,19 @@ export const AboutHome = () => {
               justifyContent="center"
               alignItems="start"
             >
-              <Box border="3px solid blue" padding="10px">
+              <Box border="2px solid rgb(0, 93, 185)" padding="10px">
                 <img
+                  className="image-about-home"
                   src="https://cdn-icons-png.flaticon.com/512/7043/7043000.png"
                   width={35}
                 />
               </Box>
-              <Text className="text" position="relative" bottom="20px">
+              <Text
+                paddingLeft="10px"
+                className="text"
+                position="relative"
+                bottom="20px"
+              >
                 We believe that in order to maintain a pain free body it is
                 necessary to understand a person's specific injury and prevent
                 situations that might exacerbate or aggravate a condition.
