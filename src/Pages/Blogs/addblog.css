@@ -34,3 +34,17 @@ textarea:focus {
 .file {
   width: 300px;
 }
+
+.btn-addblogs {
+  background-color: #3182ce;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn-addblogs:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
