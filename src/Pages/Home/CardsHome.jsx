@@ -1,44 +1,44 @@
-import { Box, Stack, Image, Text } from '@chakra-ui/react'
-import React from 'react'
-import './cardshome.css'
+import { Box, Stack, Image, Text } from "@chakra-ui/react";
+import React from "react";
+import "./cardshome.css";
 
 const infoCards = [
   {
-    class: 'card1',
-    icon: 'https://cdn-icons-png.flaticon.com/512/3209/3209080.png',
-    title: 'Qualified Professionals',
+    class: "card1",
+    icon: "https://cdn-icons-png.flaticon.com/512/3209/3209080.png",
+    title: "Qualified Professionals",
     description:
-      'Top-notch customer service and treatment approach that is evidence based and proven to be successful'
-    },
-  {
-    class: 'card2',
-    icon: 'https://cdn-icons-png.flaticon.com/512/3953/3953705.png',
-    title: 'Extensive Experience',
-    description:
-      'Over 20 years of combined experience, and extensive knowledge in many areas of physical and mental health'
+      "Top-notch customer service and treatment approach that is evidence based and proven to be successful",
   },
   {
-    class: 'card3',
-    icon: 'https://cdn-icons-png.flaticon.com/512/3953/3953604.png',
-    title: 'Leading Technology',
+    class: "card2",
+    icon: "https://cdn-icons-png.flaticon.com/512/3953/3953705.png",
+    title: "Extensive Experience",
     description:
-      'Agile treatment techniques led by advanced technology to diagnose patient issues and concerns'
+      "Over 20 years of combined experience, and extensive knowledge in many areas of physical and mental health",
   },
   {
-    class: 'card4',
-    icon: 'https://cdn-icons.flaticon.com/png/512/966/premium/966024.png?token=exp=1653958895~hmac=ac169b5c9f685aa96c4f4049f9761ffc',
-    title: 'Direct Billing', //look for ways to have the word "billing in a seperate line"
+    class: "card3",
+    icon: "https://cdn-icons-png.flaticon.com/512/3953/3953604.png",
+    title: "Leading Technology",
     description:
-      'Direct billing to various public and private insurance providers in addition to all MVA and WCB Claims'
+      "Agile treatment techniques led by advanced technology to diagnose patient issues and concerns",
   },
-]
+  {
+    class: "card4",
+    icon: "https://cdn-icons.flaticon.com/png/512/966/premium/966024.png?token=exp=1653958895~hmac=ac169b5c9f685aa96c4f4049f9761ffc",
+    title: "Direct Billing", //look for ways to have the word "billing in a seperate line"
+    description:
+      "Direct billing to various public and private insurance providers in addition to all MVA and WCB Claims",
+  },
+];
 
 export const CardsHome = () => {
   return (
     <>
       <Stack
         className="cardshome"
-        height="90vh"
+        height="80vh"
         flexDirection="row"
         justifyContent="center"
         alignItems="center"
@@ -57,7 +57,8 @@ export const CardsHome = () => {
                 <Box boxSize="sm" paddingTop={10}>
                   <Image
                     width="50px"
-                    src={card.icon} className="cardIcon"
+                    src={card.icon}
+                    className="cardIcon"
                     alt="We have..."
                   />
                 </Box>
@@ -71,13 +72,13 @@ export const CardsHome = () => {
                   >
                     {card.title}
                   </Text>
-                  <Text 
-                  m={0} 
-                  padding={25} 
-                  letterSpacing="2px"
-                  lineHeight={1.4}
-                  fontFamily="Roboto"
-                  fontWeight={500}
+                  <Text
+                    m={0}
+                    padding={25}
+                    letterSpacing="2px"
+                    lineHeight={1.4}
+                    fontFamily="Roboto"
+                    fontWeight={500}
                   >
                     {card.description}
                   </Text>
@@ -88,5 +89,5 @@ export const CardsHome = () => {
         ))}
       </Stack>
     </>
-  )
-}
+  );
+};
