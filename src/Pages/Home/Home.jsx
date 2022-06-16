@@ -7,6 +7,7 @@ import { CardsHome } from "./CardsHome";
 import { AboutHome } from "./AboutHome";
 import { Reviews } from "./Reviews";
 import { BannerApoint } from "./BannerApoint";
+import MapContact from "../Contact/MapContact";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <AboutHome />
       <BannerApoint />
       <Reviews />
+      <MapContact />
       <Footer />
     </div>
   );
