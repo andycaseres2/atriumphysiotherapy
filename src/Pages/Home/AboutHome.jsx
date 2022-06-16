@@ -9,7 +9,7 @@ export const AboutHome = () => {
       <Stack justifyContent="center" alignItems="center">
         <Stack width={1200} justifyContent="center" alignContent="center">
           <Box>
-            <Image width={900} src={imagestaffhome} alt="Dan Abramov" />
+            <Image width={1000} src={imagestaffhome} alt="Dan Abramov" />
           </Box>
           <Stack textAlign="left">
             <Text className="title">ABOUT ATRIUM PHYSIOTHERAPY</Text>
@@ -111,7 +111,12 @@ export const AboutHome = () => {
             </Stack>
           </Stack>
         </Stack>
-        <Text width="1200px" p="40px 0 40px 0" textAlign="left">
+        <Text
+          className="text"
+          width="1200px"
+          p="40px 0 40px 0"
+          textAlign="left"
+        >
           At Atrium Physiotherapy we strive to educate our patients about their
           condition and collaborate in developing a realistic treatment plan.
           Our teams of Physiotherapists and Massage Therapist have exceptional
