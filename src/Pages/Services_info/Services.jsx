@@ -9,7 +9,7 @@ import "./services.css";
 import { Services_Content } from "./Services_Content";
 
 const Services = () => {
-  const [current, setCurrent] = useState();
+  const [current, setCurrent] = useState(1);
 
   return (
     <>
