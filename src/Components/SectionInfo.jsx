@@ -24,8 +24,8 @@ const SectionInfo = () => {
               <div className="img-info-icon">
                 <img
                   className="img-info-icon-na"
-                  src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
-                  width={16}
+                  src="https://cdn-icons-png.flaticon.com/512/484/484167.png"
+                  width={18}
                   alt=""
                 />
               </div>
@@ -37,8 +37,8 @@ const SectionInfo = () => {
               <div className="img-info-icon">
                 <img
                   className="img-info-icon-na"
-                  src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
-                  width={16}
+                  src="https://cdn-icons-png.flaticon.com/512/1633/1633686.png"
+                  width={18}
                   alt=""
                 />
               </div>
@@ -63,8 +63,8 @@ const SectionInfo = () => {
               <div className="img-info-icon">
                 <img
                   className="img-info-icon-na"
-                  src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
-                  width={16}
+                  src="https://cdn-icons.flaticon.com/png/512/5735/premium/5735235.png?token=exp=1655584501~hmac=42e0a21d1bc3ef73438fc18e87276935"
+                  width={18}
                   alt=""
                 />
               </div>
