@@ -75,7 +75,7 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <h2 className="copy">
-          Created by {" "}
+          Created by{" "}
           <a className="by" href="#">
             OnPoint Media
           </a>

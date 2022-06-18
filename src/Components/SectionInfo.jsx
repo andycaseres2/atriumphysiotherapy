@@ -19,29 +19,57 @@ const SectionInfo = () => {
       </div>
       <div className="containerinfo">
         <div className="contact-info">
-          <div className="address">
-            <div className="icon">
-              <ImLocation2 />
+          <div className="address-navbar">
+            <div className="info-icon-navbar">
+              <div className="img-info-icon">
+                <img
+                  className="img-info-icon-na"
+                  src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+                  width={16}
+                  alt=""
+                />
+              </div>
+              <p>Address: #140 - 340 Midpark Way SE, T2X 1P1</p>
             </div>
-            <p>Address: #140 - 340 Midpark Way SE, T2X 1P1</p>
           </div>
-          <div className="email">
-            <div className="icon">
-              <GrMail />
+          <div className="email-navbar">
+            <div className="info-icon-navbar">
+              <div className="img-info-icon">
+                <img
+                  className="img-info-icon-na"
+                  src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+                  width={16}
+                  alt=""
+                />
+              </div>
+              <p>Email: admin@atriumphysiotherapy.com</p>
             </div>
-            <p>Email: admin@atriumphysiotherapy.com</p>
           </div>
-          <div className="phone">
-            <div className="icon">
-              <BsFillTelephoneFill />
+          <div className="phone-navbar">
+            <div className="info-icon-navbar">
+              <div className="img-info-icon">
+                <img
+                  className="img-info-icon-na"
+                  src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+                  width={16}
+                  alt=""
+                />
+              </div>
+              <p>Phone: 403.255.4461</p>
             </div>
-            <p>Phone: 403.255.4461</p>
           </div>
-          <div className="fax">
-            <div className="icon">
-              <FaFax />
+          <div className="fax-navbar">
+            <div className="info-icon-navbar">
+              <div className="img-info-icon">
+                <img
+                  className="img-info-icon-na"
+                  src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+                  width={16}
+                  alt=""
+                />
+              </div>
+              <p>Fax: 403.259.8776 </p>
             </div>
-            <p>Fax: 403.259.8776 </p>
           </div>
         </div>
       </div>

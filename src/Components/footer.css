@@ -109,3 +109,20 @@
   left: 450px;
   bottom: 40px;
 }
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

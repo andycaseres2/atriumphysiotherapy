@@ -14,24 +14,22 @@
   color: white;
   font-size: 13px;
 }
-.address {
+.address-navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding-left: 30px;
 }
-.email {
+.email-navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-left: 30px;
-  position: relative;
-  right: 16px;
+  margin-top: 5px;
 }
 
-.phone {
+.phone-navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -39,13 +37,14 @@
   position: relative;
   right: 70px;
 }
-.fax {
+.fax-navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   position: relative;
-  right: 80px;
+  right: 77px;
+  margin-top: 5px;
 }
 
 .logo {
@@ -53,11 +52,6 @@
   justify-content: center;
   align-items: center;
   padding-left: 30px;
-}
-.icon {
-  font-size: 22px;
-  color: white;
-  padding-right: 10px;
 }
 
 .covidbtn {
@@ -88,4 +82,27 @@
   position: relative;
   top: 2px;
   right: 10px;
+}
+
+.info-icon-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-info-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-info-icon-navbar {
+  -webkit-filter: grayscale(100%) brightness(30%) sepia(100%)
+    hue-rotate(-180deg) saturate(700%) contrast(0.8);
+  filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg)
+    saturate(700%) contrast(0.8);
 }
