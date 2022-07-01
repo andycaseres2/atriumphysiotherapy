@@ -5,12 +5,12 @@ import SectionTitle from "../../Components/SectionTitle";
 import Footer from "../../Components/Footer";
 import { Grid } from "@chakra-ui/react";
 import { AddPost } from "./AddPost";
-import { PostData } from "./PostData";
+import { PostData } from "./Blogdata";
 import { PostItem } from "./PostItem";
 import { SideBarRight } from "./SideBarRight";
 import "./blogs.css";
 
-const Blogs = () => {
+export default function Blog() {
   return (
     <>
       <SectionInfo />
@@ -30,4 +30,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+

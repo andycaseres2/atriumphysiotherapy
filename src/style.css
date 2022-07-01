@@ -1,4 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  scroll-behavior: smooth;
+  max-width: 1900px;
+}
 
 body {
   margin: 0;
@@ -15,10 +24,7 @@ code {
     monospace;
 }
 
-html {
-  scroll-behavior: smooth;
-  max-width: 1900px;
-}
+
 
 .App {
   text-align: center;
@@ -58,3 +64,10 @@ html {
 button {
   font-size: calc(10px + 2vmin);
 }
+
+
+/*
+/////////////////////////////////////////
+//////////////////////////////////////////////////Blog Section
+//////////////////////////////////////////////
+*/

@@ -1,7 +1,7 @@
 import "./style.css";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
-import Blogs from "./Pages/Blogs/Blogs";
+import Blog from "./Pages/Blog/Blog";
 import Contact from "./Pages/Contact/Contact";
 import { Route } from "wouter";
 import Covid19 from "./Pages/Covid-19/Covid19";
@@ -14,7 +14,7 @@ function App() {
       <Route path="/" component={Home} />
       <Route path="/About" component={About} />
       <Route path="/Contact" component={Contact} />
-      <Route path="/Blogs" component={Blogs} />
+      <Route path="/Blog" component={Blog} />
       <Route path="/Services" component={Services} />
       <Route path="/Covid19" component={Covid19} />
       <Route path="/Appointment" component={Appointment} />

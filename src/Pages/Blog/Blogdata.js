@@ -1,4 +1,4 @@
-export const PostData = [
+export default data = [
   {
     id: 1,
     title: "Importance of Stretching",
