@@ -8,7 +8,7 @@ import Covid19 from "./Pages/Covid-19/Covid19";
 import Appointment from "./Pages/Appointment/Appointment";
 import Services from "./Pages/Services_info/Services";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Route path="/" component={Home} />
@@ -22,4 +22,3 @@ function App() {
   );
 }
 
-export default App;
