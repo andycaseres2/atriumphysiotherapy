@@ -71,3 +71,24 @@ button {
 //////////////////////////////////////////////////Blog Section
 //////////////////////////////////////////////
 */
+
+.blogcard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blogcard {
+  width: 470px;
+  height: 168px;
+  font-size: 12px;
+}
+
+.blogcard-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
