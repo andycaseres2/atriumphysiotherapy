@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function BlogCard(props) {
-    retrun (
+    return (
         <div className="blogcard">
           <img src={item.image}/>
           <div className="blogcard-info">
