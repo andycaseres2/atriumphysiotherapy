@@ -1,5 +1,5 @@
 import React from 'react'
-import './staff.css'
+import "../../../src/style.css"
 import StaffCards from './StaffCards'
 import carolynh from '../../assets/images/carolynh.jpg'
 import hala from '../../assets/images/hala.jpg'
