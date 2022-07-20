@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, Stack, Box, Text } from "@chakra-ui/react";
 import imagestaffhome from "../../assets/images/homepageStaffPhoto.jpg";
-import "./AboutHome.css";
+import "./home.css";
 
 export const AboutHome = () => {
   return (

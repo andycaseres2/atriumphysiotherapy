@@ -1,5 +1,5 @@
 import React from "react";
-import "./reviews.css";
+import "./home.css";
 
 export const Reviews = () => {
   return (

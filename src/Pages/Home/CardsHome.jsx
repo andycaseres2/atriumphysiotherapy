@@ -1,6 +1,6 @@
 import { Box, Stack, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import "./cardshome.css";
+import "./home.css";
 
 const infoCards = [
   {
