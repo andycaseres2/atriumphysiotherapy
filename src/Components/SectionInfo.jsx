@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/images/atriumLogo.png";
-import "./sectioninfo.css";
+import "./components.css";
 import { ImLocation2 } from "react-icons/im";
 import { GrMail } from "react-icons/gr";
 import { BsFillTelephoneFill } from "react-icons/bs";

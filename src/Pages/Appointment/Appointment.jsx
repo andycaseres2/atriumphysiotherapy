@@ -3,7 +3,7 @@ import SectionInfo from "../../Components/SectionInfo";
 import { Navbar } from "../../Components/Navbar";
 import SectionTitle from "../../Components/SectionTitle";
 import Footer from "../../Components/Footer";
-import "./Appointment.css";
+import "../../../src/style.css"
 
 const Appointment = () => {
   return (

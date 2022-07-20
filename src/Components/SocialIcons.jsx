@@ -1,5 +1,5 @@
 import React from "react";
-import "./socialicons.css";
+import "./components.css";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";

@@ -1,4 +1,4 @@
-import './navbar.css'
+import './components.css'
 import { Link } from 'wouter'
 
 export const Navbar = () => {
